@@ -39,6 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    display: flex;
 }
 
 .container-right {
@@ -125,3 +126,10 @@
     min-width: 768px;
 }
 
+.card{
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
